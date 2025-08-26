@@ -16,5 +16,10 @@
     "url": "https://github.com/joaocastro0429/markplace/issues"
   },
   "homepage": "https://github.com/joaocastro0429/markplace#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0"
+  }
 }
