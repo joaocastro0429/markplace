@@ -1,8 +1,8 @@
 const express = require ('express')
-const db= require('./src/database/db')
+const db= require('./database/db')
 
 const app = express()
-db.connect()
+db()
 
 app.get('/', (req,res)=>{
     res.send({message:"Bem vindo ao nosso market-place!"})
